@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/shop_details_tag1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:text="返回"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="爆料规则"
+            android:textSize="16dp" />
+    </RelativeLayout>
+    <ImageView
+        android:background="@color/lineColor"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:text="悬赏爆料，参与爆料获得积分奖励！"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:text="一、爆料有什么奖励？"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="1.爆料通过至国内折扣，视爆料优质程度奖励10-50积分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="13dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="2. 爆料通过至省钱控，视爆料优质程度，奖励50-200积分优质爆料再追加200积分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="13dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="3. 在上面的基础上 ，爆料信息填写完整规范，追加奖励10积分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/clickColor"
+        android:textSize="11dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="注：爆料优质程度包含爆料原创性、爆料人是否刷料、爆料促销力度等多个维度"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:text="二、爆料规则是什么？"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="1. 爆料通过率高的小秘籍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="a.优惠力度大的促销通过率高！爆料时将优惠的力度、优惠享有方式说明的越清楚，优惠力度越大通过率越高哦而且，小编会追加积分哦！小编会追加积分哦！小编会追加积分哦！（重要的事情说三遍）"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="b.原创、新鲜出炉的优惠爆料通过率高！即在同类促销或比价网站未被曝光过的优惠通过后奖励积分比较高！"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="c.规范填写爆料信息！主图清晰无牛皮癣！推荐理由丰富说明优惠力度和优惠方式或领券地址等！"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="2. 哪些料一般不能通过"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="a.淘宝集市店铺商品（特约商品除外）、非知名商城、海淘商品（暂不支持爆料）"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="b.当天重复爆料的（在慢慢买或同类优惠促销网站已爆料的）——建议先在慢慢买—折扣搜索查看有没重复"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="c.非热销商品或好评率低——特别针对第三方商家商品"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="d.爆料商品优惠力度不够：非历史唯一最低价；非全网唯一最低价；优惠结束、优惠券失效"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="e.其他情况：好评率或者销量极低的；库存数量很少或已经无货了；优惠受众过少或仅适用少部分特殊用户"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="f. 审核时优惠已失效（如提交时优惠有效则奖励10积分）"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/clickColor"
+            android:textSize="11dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="备注：优惠爆料现针对国内B2C商城商品或活动不包含淘宝促销及海淘促销。"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="3. 爆料权限"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="a. 普通用户爆料数10条/周；免审用户爆料数30条/周——尽量选择优质线报爆料"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="b. 爆料时间不限，只要登陆状态，未超过爆料数，任何时候都可以爆料"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/clickColor"
+            android:textSize="11dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="注：免审用户是根据爆料通过率及爆料数自动给与开放的权限"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

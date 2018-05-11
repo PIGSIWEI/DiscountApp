@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/appbackgroundcolor"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="全部"
+                android:textColor="@color/clickColor"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="京东" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="苏宁"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="天猫"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="国美"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="手机"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="箱包"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="2.5dp"
+            android:background="@color/clickColor" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:background="#e5e5e5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    tools:ignore="Suspicious0dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/search_home_1"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp" />
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textColor="@color/black"
+                                android:text="我的订阅"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:textColor="#c6c6c6"
+                                android:textSize="12dp"
+                                android:text="个性订阅全网折扣"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView
+                        android:background="#e5e5e5"
+                        android:layout_width="0.7dp"
+                        android:layout_height="match_parent" />
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/search_home_2"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp" />
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textColor="@color/black"
+                                android:text="神价直播"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:textColor="#c6c6c6"
+                                android:textSize="12dp"
+                                android:text="京东最新降价商品"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <ImageView
+                    android:background="#e5e5e5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    tools:ignore="Suspicious0dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/search_home_3"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp" />
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="天猫精选"
+                                android:textColor="@color/black" />
+                            <TextView
+                                android:textColor="#c6c6c6"
+                                android:textSize="12dp"
+                                android:text="将性价比做到极致"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView
+                        android:background="#e5e5e5"
+                        android:layout_width="0.7dp"
+                        android:layout_height="match_parent" />
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/search_home_4"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp" />
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textColor="@color/black"
+                                android:text="京东领券"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:textColor="#c6c6c6"
+                                android:textSize="12dp"
+                                android:text="京东优惠实时更新"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/home_shop_list1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@drawable/home_shop_tag1" />
+
+                        <TextView
+                            android:textSize="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="一次性加大明星GD..." />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="券后"
+                            android:textColor="@color/clickColor"
+                            android:textSize="11dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9.99"
+                            android:textColor="@color/clickColor"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="已售13"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginTop="1dp"
+                            android:layout_width="70dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="7dp"
+                            android:src="@drawable/home_shop_tag2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_marginRight="3dp"
+                                android:layout_marginTop="1dp"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/home_shop_tag3" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="分享"
+                                android:textColor="@color/clickColor"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/home_shop_list1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@drawable/home_shop_tag1" />
+
+                        <TextView
+                            android:textSize="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="一次性加大明星GD..." />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="券后"
+                            android:textColor="@color/clickColor"
+                            android:textSize="11dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9.99"
+                            android:textColor="@color/clickColor"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="已售13"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginTop="1dp"
+                            android:layout_width="70dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="7dp"
+                            android:src="@drawable/home_shop_tag2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_marginRight="3dp"
+                                android:layout_marginTop="1dp"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/home_shop_tag3" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="分享"
+                                android:textColor="@color/clickColor"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/home_shop_list1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@drawable/home_shop_tag1" />
+
+                        <TextView
+                            android:textSize="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="一次性加大明星GD..." />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="券后"
+                            android:textColor="@color/clickColor"
+                            android:textSize="11dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9.99"
+                            android:textColor="@color/clickColor"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="已售13"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginTop="1dp"
+                            android:layout_width="70dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="7dp"
+                            android:src="@drawable/home_shop_tag2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_marginRight="3dp"
+                                android:layout_marginTop="1dp"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/home_shop_tag3" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="分享"
+                                android:textColor="@color/clickColor"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/home_shop_list1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@drawable/home_shop_tag1" />
+
+                        <TextView
+                            android:textSize="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="一次性加大明星GD..." />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="券后"
+                            android:textColor="@color/clickColor"
+                            android:textSize="11dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9.99"
+                            android:textColor="@color/clickColor"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="已售13"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginTop="1dp"
+                            android:layout_width="70dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="7dp"
+                            android:src="@drawable/home_shop_tag2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_marginRight="3dp"
+                                android:layout_marginTop="1dp"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/home_shop_tag3" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="分享"
+                                android:textColor="@color/clickColor"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/home_shop_list1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@drawable/home_shop_tag1" />
+
+                        <TextView
+                            android:textSize="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="一次性加大明星GD..." />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="券后"
+                            android:textColor="@color/clickColor"
+                            android:textSize="11dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9.99"
+                            android:textColor="@color/clickColor"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="已售13"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginTop="1dp"
+                            android:layout_width="70dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="7dp"
+                            android:src="@drawable/home_shop_tag2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_marginRight="3dp"
+                                android:layout_marginTop="1dp"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/home_shop_tag3" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="分享"
+                                android:textColor="@color/clickColor"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/home_shop_list1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@drawable/home_shop_tag1" />
+
+                        <TextView
+                            android:textSize="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="一次性加大明星GD..." />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="券后"
+                            android:textColor="@color/clickColor"
+                            android:textSize="11dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9.99"
+                            android:textColor="@color/clickColor"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="已售13"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginTop="1dp"
+                            android:layout_width="70dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="7dp"
+                            android:src="@drawable/home_shop_tag2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_marginRight="3dp"
+                                android:layout_marginTop="1dp"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/home_shop_tag3" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="分享"
+                                android:textColor="@color/clickColor"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+   </LinearLayout>

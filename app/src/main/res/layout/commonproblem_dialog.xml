@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_exit"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/exit_bg"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="何为比价网？"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="1.比价网是一款倡导理性消费的导购APP，是集"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/clickColor"
+            android:layout_marginLeft="20dp"
+            android:text="网购推荐、消费社区、查价格工具"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="为一体的消费"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="决策平台。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="2.我们专注为用户推荐高性价比的商品，同时开"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:text="发了"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/clickColor"
+            android:text="全网比价、历史价格查询"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="等购物助手，力求"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="帮助消费者花更少的钱买到优质的产品。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

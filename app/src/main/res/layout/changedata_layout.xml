@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/appbackgroundcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/shop_details_tag1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:text="返回"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="修改资料"
+            android:textSize="16dp" />
+    </RelativeLayout>
+    <ImageView
+        android:background="@color/lineColor"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp" />
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_changepho"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="13dp"
+                android:layout_gravity="center"
+                android:text="我的头像"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_user_pho"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@id/iv_arrow1"
+                    android:background="@drawable/mine_head_bg"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/iv_arrow1"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/mine_tag3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView
+            android:background="@color/lineColor"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp" />
+        <LinearLayout
+            android:id="@+id/ll_changename"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="13dp"
+                android:layout_gravity="center"
+                android:text="我的昵称"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:textColor="@color/texthintcolor"
+                    android:text="PIGFF"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@id/iv_arrow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/iv_arrow2"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/mine_tag3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView
+            android:background="@color/lineColor"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp" />
+        <LinearLayout
+            android:id="@+id/ll_changephone"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="13dp"
+                android:layout_gravity="center"
+                android:text="手机号"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_user_phone"
+                    android:textColor="@color/texthintcolor"
+                    android:text="132****2775"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@id/iv_arrow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/iv_arrow3"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/mine_tag3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

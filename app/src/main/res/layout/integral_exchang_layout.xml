@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/appbackgroundcolor"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/shop_details_tag1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:text="返回"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="80dp"
+                android:text="积分兑换"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/lineColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/integral_exchang_tag2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="积分:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="23"
+                    android:textColor="@color/clickColor" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent"
+                android:background="@color/lineColor" />
+
+            <LinearLayout
+                android:id="@+id/ll_exchang_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shop_linear_button1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/integral_exchang_tag1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="兑换记录" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginVertical="5dp"
+                android:text="热门推荐" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/lineColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:background="@drawable/integral_exchang_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="爱奇艺黄金会员7天卡"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/clickColor"
+                    android:layout_gravity="center"
+                    android:text="1800积分"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/bt_exchang"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/shop_linear_button2"
+                    android:text="兑换"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp" />
+            </LinearLayout>
+            <ImageView
+                android:background="@color/lineColor"
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:background="@drawable/integral_exchang_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="爱奇艺黄金会员7天卡"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/clickColor"
+                    android:layout_gravity="center"
+                    android:text="1800积分"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/shop_linear_button2"
+                    android:text="兑换"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:background="@color/lineColor"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:background="@drawable/integral_exchang_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="爱奇艺黄金会员7天卡"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/clickColor"
+                    android:layout_gravity="center"
+                    android:text="1800积分"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/shop_linear_button2"
+                    android:text="兑换"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp" />
+            </LinearLayout>
+            <ImageView
+                android:background="@color/lineColor"
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:background="@drawable/integral_exchang_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="爱奇艺黄金会员7天卡"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/clickColor"
+                    android:layout_gravity="center"
+                    android:text="1800积分"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/shop_linear_button2"
+                    android:text="兑换"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

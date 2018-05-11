@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@color/appbackgroundcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/shop_details_tag1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:text="返回"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="收银台"
+            android:textSize="16dp" />
+    </RelativeLayout>
+    <ImageView
+        android:background="@color/lineColor"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.discount.pigpigroad.discountapp.CustomView.ArcView
+        app:arcHeight="80dp"
+        app:bgColor="#FFA082"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+        <ImageView
+            android:layout_marginTop="110dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/pay_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_success"
+            android:layout_marginTop="150dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:text="支付成功"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tv_success"
+            android:textSize="14dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:text="共支付：￥186.00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textColor="@color/white"
+            android:layout_marginTop="330dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/notice_button_style"
+            android:text="查看订单"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/btn_return"
+            android:textColor="@color/clickColor"
+            android:layout_marginTop="390dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/mycollection_style"
+            android:text="返回首页"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+</LinearLayout>

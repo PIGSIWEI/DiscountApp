@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/clickColor</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.Slide" parent="@style/AppTheme">
+        <!--Required-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/AppTheme.Slide.Animation</item>
+    </style>
+    <style name="AppTheme.Slide.Animation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_slide_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_slide_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_slide_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_slide_out</item>
+    </style>
+    <style name="AppTheme.Launcher" parent="@style/AppTheme">
+        <!-- 通过windowBackground可以设置背景色、背景图片、能解析出图片的XML文件等-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+    <style name="dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+        <item name="android:windowExitAnimation">@anim/exit</item>
+    </style>
+</resources>

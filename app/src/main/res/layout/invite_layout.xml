@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/invite_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/shop_details_tag1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:text="返回"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="80dp"
+            android:text="邀请有礼"
+            android:textSize="16dp" />
+    </RelativeLayout>
+    <ImageView
+        android:background="@color/lineColor"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp" />
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:background="@drawable/invite_tag1"
+        android:layout_width="match_parent"
+        android:layout_height="140dp" />
+    <ImageView
+        android:background="@drawable/invite_tag2"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="@drawable/invite_tag3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/white_circle_linearlayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:background="@color/lineColor"
+                android:layout_width="50dp"
+                android:layout_height="1dp" />
+            <TextView
+                android:textSize="18dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="活动规则"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_gravity="center"
+                android:background="@color/lineColor"
+                android:layout_width="50dp"
+                android:layout_height="1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/point_bg"
+                android:layout_width="8dp"
+                android:layout_height="8dp" />
+            <TextView
+                android:textSize="13dp"
+                android:text="分享并邀请好友注册并登录成功，分享者即可"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:textSize="13dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="43dp"
+            android:text="获得200积分奖励"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/point_bg"
+                android:layout_width="8dp"
+                android:layout_height="8dp" />
+            <TextView
+                android:textSize="13dp"
+                android:text="被分享的好友注册成功后获得200积分+各种"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="43dp"
+            android:text="特权"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/point_bg"
+                android:layout_width="8dp"
+                android:layout_height="8dp" />
+            <TextView
+                android:textSize="13dp"
+                android:text="发现客户存在违规行为，我们将有权取消用户"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginBottom="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="43dp"
+            android:text="获奖资格"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/white_circle_linearlayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="我的邀请"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:background="@drawable/invite_tag5"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="12dp"
+                android:text="暂无"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="410dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/invite_tag4"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/appbackgroundcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/shop_details_tag1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:text="返回"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="订单结算"
+            android:textSize="16dp" />
+    </RelativeLayout>
+    <ImageView
+        android:background="@color/lineColor"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_address"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/address_tag2"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_user"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_useraddress"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="12dp"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/right_arrow"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="17dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:text="总计:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_all_price"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_gravity="center"
+            android:textColor="@color/clickColor"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/settlement"
+            android:layout_gravity="right"
+            android:textColor="@color/white"
+            android:text="立即结算"
+            android:background="@drawable/shop_linear_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

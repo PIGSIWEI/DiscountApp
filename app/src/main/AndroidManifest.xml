@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.discount.pigpigroad.discountapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity
+            android:name=".HomeActivity.HomeTodayActivity"
+            android:theme="@style/AppTheme.Slide" />
+        />
+        <activity
+            android:name=".ShopDetailsActivity"
+            android:theme="@style/AppTheme.Slide" />
+        <activity android:name=".Login.LoginActivity"></activity>
+        <activity
+            android:name=".Start.StartActivity"
+            android:theme="@style/AppTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MinePage.MyIntegralActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.IntergralExchaneActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.IntergralUseforActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.ExchangeRecord.ExchangeRecordActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.ExchangeRecord.IntegralExchangDetailActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.SubscribeSetting.SubscribeSettingActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.SubscribeSetting.MySubscribeActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.Setting.SettingActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.Setting.FeedBackActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.Setting.CommonProblemActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.Setting.AboutUsActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.Setting.InviteActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".HomeFragment.SearchActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.MyCollection.MyCollectionActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.TipOff.TipOffActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.TipOff.TipOffDetail"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.TipOff.TipOffRuleActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.TipOff.MyTipOff.MyTipOffActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.MyOrder.MyOrderActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.ViewHistoryActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.Common.CommonActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.ChangeData.ChangeDataActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.ChangeData.ChangeNameActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.ShoppingCart.ShoppingCartActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.Address.AddressActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.Address.NewAddressActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.Address.EditAddressActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.PayOrder.PayOrderActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.PayOrder.SettlementActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.PayOrder.FinshOrderActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".HomeFragment.HomeColumnActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity android:name=".MinePage.ChangeData.ChangePhoneActivity"
+            android:theme="@style/AppTheme.Slide"/>
+    </application>
+
+
+</manifest>

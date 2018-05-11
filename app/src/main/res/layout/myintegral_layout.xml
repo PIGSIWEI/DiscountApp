@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:background="@color/appbackgroundcolor"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/shop_details_tag1"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_marginLeft="3dp"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:text="返回"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="80dp"
+            android:textSize="16dp"
+            android:text="我的积分"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@drawable/my_integral_bg"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="85dp"
+            android:textColor="@color/white"
+            android:text="积分:23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/white"
+            android:text="已连续签到2天"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="签到提醒"
+                android:textSize="13dp" />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.kyleduo.switchbutton.SwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:background="@color/lineColor"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp" />
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/ll_integral_exchang"
+            android:background="@drawable/shop_linear_button1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="13dp"
+                android:layout_gravity="center"
+                android:text="积分兑换"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/mine_tag3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:background="@color/lineColor"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp" />
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/ll_integral_usefor"
+            android:background="@drawable/shop_linear_button1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="13dp"
+                android:layout_gravity="center"
+                android:text="积分有什么用"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/mine_tag3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/mytegral_tag_1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textSize="13dp"
+                        android:text="签到打卡"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:textSize="10dp"
+                        android:text="连续签到+1至7积分，还有惊喜大礼包领取"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/mine_tag3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:background="@color/lineColor"
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/mytegral_tag_2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textSize="13dp"
+                        android:text="每日评论奖励"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:textSize="10dp"
+                        android:text="参与省钱控评论互动，每条优质评论+5至30积分"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/mine_tag3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:background="@color/lineColor"
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/mytegral_tag_3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textSize="13dp"
+                        android:text="邀请好友下载APP并注册"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:textSize="10dp"
+                        android:text="注册成功后反馈给在线客服+200积分"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/mine_tag3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:background="@color/lineColor"
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/mytegral_tag_4"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textSize="13dp"
+                        android:text="活动奖励"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:textSize="10dp"
+                        android:text="参与积分有奖活动，最高+1000积分"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/mine_tag3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:background="@color/lineColor"
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/mytegral_tag_5"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textSize="13dp"
+                        android:text="新用户注册"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:textSize="10dp"
+                        android:text="+20积分"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/mine_tag3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:background="@color/lineColor"
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/mytegral_tag_6"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textSize="13dp"
+                        android:text="爆料奖励"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:textSize="10dp"
+                        android:text="+50至500积分"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/mine_tag3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:background="@color/lineColor"
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/mytegral_tag_7"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textSize="13dp"
+                        android:text="完善个人资料"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:textSize="10dp"
+                        android:text="+20积分"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/mine_tag3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:background="@color/lineColor"
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
